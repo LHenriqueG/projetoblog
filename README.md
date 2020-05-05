@@ -6,15 +6,15 @@ Projeto de criação de um blog com um CRUD completo, painel admin, exibição d
 
 Tecnologias utilizadas:
 
-*HTML 5
-*JavaScript
-*Framework Bootstrap
-*Node.JS
-*MySQL
-*Biblioteca JQuery
-*Sequelize
-*Express
-*TinyMCE
+* HTML 5
+* JavaScript
+* Framework Bootstrap
+* Node.JS
+* MySQL
+* Biblioteca JQuery
+* Sequelize
+* Express
+* TinyMCE
 
 Projeto ainda está em conclusão, porém bastante avançado em relação as funcionalidades.
 -----------------------------------------------------------------------------------------------------------
