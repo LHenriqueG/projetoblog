@@ -1,0 +1,36 @@
+<%- include ('partials/header.ejs') -%> 
+<%- include ('partials/homenavbar.ejs') -%>
+
+<body>
+  <div class="container">
+      <hr>
+    <div class="jumbotron">
+        <h1 class="display-4">Bem-vindo(a)!</h1>
+        <p class="lead">Um exemplo de blog com nodejs!</p>
+        <hr class="my-4">
+        <p>Utilizando nodejs e Bootstrap!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais!</a>
+      </div>
+    <hr>
+    <% articles.forEach(article => { %>
+        <div class="card">
+            <div class="card-header">
+                <h2><%= article.title%></h2>
+            </div>
+            <div class="card-body">
+                <a class="btn btn-primary" href="<%= article.slug%>">Ler artigo</a>
+            </div>
+        </div>
+    <% }) %>
+    
+    <div class="row">
+      <div class="col col-12">
+        <a style="float: right;" href="/articles/page/2">Próxima</a>
+      </div>
+      <hr>
+    </div>
+    <hr>
+  </div>
+</body>
+
+<%- include ('partials/footer.ejs') -%>
